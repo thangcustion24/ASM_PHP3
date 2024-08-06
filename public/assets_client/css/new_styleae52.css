@@ -1,0 +1,96 @@
+a:hover, .title-new:hover, .blog-table-of-content a:hover, .cart-summary__overview__item .btn--outline:hover, .bottom-voucher-ct .btn--outline:hover {
+    color: #000;
+}
+
+.btn:focus {
+    color: #fff !important;
+}
+
+.btn-bg-w:focus {
+    color: #000 !important;
+}
+
+.btn, .site-list--img-text, .hotline a {
+    background: #000;
+}
+
+.title-gradient, .about-prod-block__bg .about-prod--title, .product-detail__actions .btn--wishlist span:hover, .product-detail__actions button.btn--wishlist:hover span, .title-close span:first-child, .favourite i:hover, .product-detail__actions .btn--wishlist .icon-ic_heart_fill, .favourite i.icon-ic_heart_fill, .btn-quick-shop-heart.active-heart span {
+    color: #000;
+    -webkit-text-fill-color: inherit;
+}
+
+.btn-bg-w, .product-detail__actions .btn.btn--large.btn--outline:not(.btn--wishlist), .btn-apo--outline, .favourite .title-att-favo, .my-orders .btn-repurchase, .col-custom-cart::before, .cart-summary__overview__item .btn--outline, .bottom-voucher-ct .btn--outline {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.btn-bg-w:hover, .product-detail__actions .btn.btn--large.btn--outline:not(.btn--wishlist):hover, .btn-apo--outline:hover, .products-content-item .title-product a:hover {
+    color: #000;
+}
+
+.img-block-text__name {
+    color: #EEB256;
+}
+
+.about-prod-block--left, .site-subscibe, .site-subscibe::after {
+    background: #000;
+}
+
+.about-prod-block--left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-detail__actions .btn.btn--large.btn--outline:not(.btn--wishlist):focus {
+    color: #000 !important;
+}
+
+.fit-product {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.list-color ul li.bg-light img {
+    border: 1px solid #ccc;
+}
+
+.list-color ul li.bg-light.checked:before {
+    border-color: #000;
+}
+
+.submenu-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.fit-menu {
+    max-width: 20%;
+    width: 100%;
+}
+
+.border-color-ccc {
+    border: 1px solid #ccc;
+}
+
+.item-side-color .box-color-white .item-sub-title:before, .item-side-color .box-color-white .field-cat:checked~.item-sub-title.active:before {
+    border: 1px solid #7d8699;
+    color: #000;
+}
+
+.product-detail__color .border-color-ccc input[type=radio]:checked~span:before, .product-detail__color .border-color-ccc input[type=radio][checked=checked]~span:before {
+    color: #000;
+}
+
+.product-detail__form {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000;
+}
