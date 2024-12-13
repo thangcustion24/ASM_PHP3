@@ -14,14 +14,14 @@
             <ul id="sidebarnav">
                 <li class="nav-small-cap">
                     <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                    <span class="hide-menu">Quản lý</span>
+                    <span class="hide-menu">Quản Trị Admin</span>
                 </li>
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="{{ route('admin.products.listProduct') }}" aria-expanded="false">
                         <span>
-                            <i class="ti ti-assembly"></i>
+                            <i class="ti ti-assembly"></i>  
                         </span>
-                        <span class="hide-menu">Quản lý sản phẩm</span>
+                        <span class="hide-menu">Product</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -29,7 +29,7 @@
                         <span>
                             <i class="ti ti-users"></i>
                         </span>
-                        <span class="hide-menu">Quản lý tài khoản</span>
+                        <span class="hide-menu">Account</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -37,7 +37,7 @@
                         <span>
                             <i class="ti ti-cards"></i>
                         </span>
-                        <span class="hide-menu">Quản lý danh mục</span>
+                        <span class="hide-menu">Category</span>
                     </a>
                 </li>
                 <hr>

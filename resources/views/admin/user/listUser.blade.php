@@ -11,7 +11,7 @@ Dashboard
     <div class="col-lg-12 align-items-stretch">
         <div class="card">
             <div class="card-body p-4">
-                <h5 class="card-title fw-semibold mb-3">Quản lý tài khoản</h5>
+                <h5 class="card-title fw-semibold mb-3">Account</h5>
                 <div class="table-responsive">
                     @if (session('message'))
                         <div class="alert alert-primary" role="alert">
@@ -29,19 +29,19 @@ Dashboard
                         <thead class="text-dark fs-4">
                             <tr>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">STT</h6>
+                                    <h6 class="fw-semibold mb-0">ID</h6>
                                 </th>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">Tên người dùng</h6>
+                                    <h6 class="fw-semibold mb-0">Name</h6>
                                 </th>
                                 <th class="border-bottom-0">
                                     <h6 class="fw-semibold mb-0">Email</h6>
                                 </th>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">Chức vụ</h6>
+                                    <h6 class="fw-semibold mb-0">Office</h6>
                                 </th>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">Hành động</h6>
+                                    <h6 class="fw-semibold mb-0">Acction</h6>
                                 </th>
                             </tr>
                         </thead>

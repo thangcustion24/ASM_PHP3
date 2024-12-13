@@ -15,8 +15,6 @@ Dashboard
                 <div class="table-responsive">
                     <a href="#" class="btn btn-warning mb-4">Quay lại</a>
                     <div class="modal-content">
-                        <div class="modal-header">
-                        </div>
                         <form action="#" method="post" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="modal-body">

@@ -11,7 +11,7 @@ Dashboard
     <div class="col-lg-12 align-items-stretch">
         <div class="card">
             <div class="card-body p-4">
-                <h5 class="card-title fw-semibold mb-3">Quản lý sản phẩm</h5>
+                <h5 class="card-title fw-semibold mb-3">Product</h5>
                 <div class="table-responsive">
                     @if (session('message'))
                         <div class="alert alert-primary" role="alert">
@@ -29,7 +29,7 @@ Dashboard
                         <thead class="text-dark fs-4">
                             <tr>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">STT</h6>
+                                    <h6 class="fw-semibold mb-0">ID</h6>
                                 </th>
                                 <th class="border-bottom-0">
                                     <h6 class="fw-semibold mb-0">Tên sản phẩm</h6>
@@ -38,10 +38,10 @@ Dashboard
                                     <h6 class="fw-semibold mb-0">Danh mục</h6>
                                 </th>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">Hình ảnh </h6>
+                                    <h6 class="fw-semibold mb-0">Image </h6>
                                 </th>
                                 <th class="border-bottom-0">
-                                    <h6 class="fw-semibold mb-0">Hành động</h6>
+                                    <h6 class="fw-semibold mb-0">Acction</h6>
                                 </th>
                             </tr>
                         </thead>
@@ -112,18 +112,18 @@ Dashboard
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteProductLabel">Cảnh báo</h5>
+                <h5 class="modal-title" id="deleteProductLabel">Admin Cho Biết</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                Bạnc có muốn xóa không?
+                Anh Nguyên Đẹp Trai Có Muốn Xóa Không ???
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
                 <form action="" id="confirmDelete" method="post">
                     @method('delete')
                     @csrf
-                    <button class="btn btn-danger">Xác nhận xóa</button>
+                    <button class="btn btn-danger">Xóa</button>
                 </form>
             </div>
         </div>

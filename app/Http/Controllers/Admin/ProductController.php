@@ -81,7 +81,7 @@ class ProductController extends Controller
         }
 
         return redirect()->route('admin.products.listProduct')->with([
-            'message' => 'Thêm sản phẩm thành công nha ^ ^'
+            'message' => 'Thêm Mới Thành Công'
         ]);
     }
 
@@ -90,9 +90,9 @@ class ProductController extends Controller
         $request->validate([
             'id' => 'required',
         ]);
-        Sanpham::where('id', $request->id)->delete();
+        Sanpham::where(column: 'id', operator: $request->id)->delete();
         return redirect()->back()->with([
-            'message' => 'Xóa thành công nha ^ ^'
+            'message' => 'Xóa Thành Công'
         ]);
     }
 
@@ -134,7 +134,7 @@ class ProductController extends Controller
             'so_luong' => 'required',
             'so_luot_xem' => 'required',
             'id_dm' => 'required',
-        ], [
+        ], params: [
             'ten_sp.required' => 'Tên sản phẩm không được để trống',
             'images.*.required' => 'Ảnh không được để trống',
             'images.*.image' => 'File gửi lên không phải ảnh',
@@ -182,7 +182,7 @@ class ProductController extends Controller
         }
 
         return redirect()->route('admin.products.listProduct')->with([
-            'message'   => 'Sửa sản phẩm thành công ^ ^'
+            'message'   => 'Chỉnh Sửa Thành Công'
         ]);
     }
 
